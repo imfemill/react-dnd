@@ -1,0 +1,45 @@
+[
+    {
+        "title": "To Do",
+        "task": [
+            {
+                "id": "DEV-05",
+                "task": "Implement Drag and Drop for Tasks"
+            },
+            {
+                "id": "DEV-04",
+                "task": "Integrate Tailwind CSS with react-dnd"
+            }
+        ]
+    },
+    {
+        "title": "In Progress",
+        "task": []
+    },
+    {
+        "title": "In Review",
+        "task": [
+            {
+                "id": "DEV-03",
+                "task": "Document react-dnd usage"
+            },
+            {
+                "id": "DEV-02",
+                "task": "Install necessary Packages for react-dnd"
+            }
+        ]
+    },
+    {
+        "title": "Ready to Release",
+        "task": [
+            {
+                "id": "DEV-01",
+                "task": "Set up Initial react-dnd Project"
+            }
+        ]
+    },
+    {
+        "title": "Done",
+        "task": []
+    }
+]
