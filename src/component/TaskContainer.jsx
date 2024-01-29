@@ -64,7 +64,7 @@ const TaskContainer = ({ content, setContent, originalContent, addContent }) => 
                                 task={title}
                                 container={content?.title}
                                 hoveredTask={hoverTask?.task?.task}
-                                isHovered={!isOver}
+                                isHovered={(!noDrop)}
                             />
                         )
                     })

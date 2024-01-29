@@ -12,9 +12,9 @@ const Task = ({ task, container, hovered, hoveredTask, isHovered }) => {
     var isDraggingFn = () =>
         !hovered
             ? isDragging
-                ? 'bg-neutral-50 opacity-50'
+                ? 'bg-green-100 opacity-50'
                 : 'bg-neutral-50'
-            : 'bg-neutral-50 opacity-50';
+            : 'bg-blue-100 opacity-50';
 
     var isVisibilityFn = () => (hoveredTask === task?.task && isHovered) ? 'hidden' : '';
     return (
